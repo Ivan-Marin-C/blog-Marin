@@ -12,9 +12,11 @@ POST; es para recibir informacion de la web, los formularios
 PUT; Es para actualizar los formularios funciona similar que post
 PATCH;Se en carga de actualizar de la misma manera
 */ 
-Route::get('/',[HomeController::class, 'index']);
+
+Route::get('/', [HomeController::class, 'login']);
+Route::get('/home',[HomeController::class, 'index']);
+Route::get('/posts', [PostController::class, 'index']);
 //Ruta variables son de la siguiente manera
 //Importa el order en las que se quieren vizualicar la rutas
-Route::get('/posts', [PostController::class, 'index']);
 Route::get('/posts/crate', [PostController::class, 'create']);
 Route::get('posts/{id}', [PostController::class, 'show']);
