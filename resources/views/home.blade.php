@@ -15,8 +15,8 @@
         </nav>
     </header>
 
-    <div class="flex bg-slate-100 p-8 justify-center">
-        <div class = "columns-3">
+    <div class="w-auto bg-slate-300">
+        <div class = "flex justify-between p-10">
             <div>
                 <a class="bg-" href="/posts/crear">Crear Posts</a>
             </div>
@@ -26,7 +26,11 @@
             <div>
                 <a href="/admin-user"> Lista de usuarios</a>
             </div>
+            <div>
+                <a href="/show" class="p-5">Show</a>
+            </div>
         </div>
+        
     </div>
 
 
