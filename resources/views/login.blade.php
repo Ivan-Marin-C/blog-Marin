@@ -12,7 +12,7 @@
 <body>
     <div class=" container mx-auto ">
         <div class="grid grid-rows-1 justify-items-center">
-            <h1 class="p-4">Inicia sesion</h1>
+            <h1 class="p-4 font-mono text-blue-600">Inicia sesion</h1>
             <div>
                 <form class="max-w-sm mx-auto">
                     <div class="mb-5">
