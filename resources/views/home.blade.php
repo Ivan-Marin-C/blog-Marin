@@ -15,7 +15,7 @@
         </nav>
     </header>
 
-    <div class="w-auto bg-slate-300">
+    <div class="contet bg-slate-300">
         <div class = "flex justify-between p-10">
             <div>
                 <a class="bg-" href="/posts/crear">Crear Posts</a>
